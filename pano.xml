@@ -7,14 +7,14 @@
       <level preload="1" width="368" height="368" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-86.2297" fovmode="2">
+    <view pannorth="-78.9415" fovmode="2">
       <start tilt="0" pan="0" projection="4" fov="100"/>
       <flyin tilt="-90" pan="0" projection="9" fov="170"/>
       <min fovpixel="2" tilt="-35.7871" pan="-180"/>
       <max fovfisheye="360" tilt="35.7871" pan="180" fovstereographic="330" fov="140"/>
     </view>
-    <userdata nodeid="node2" info="" customnodeid="" title="" latitude="" longitude="" source="" datetime="" copyright="" author="" comment="" tags="" description="" heading="-86.2297">
-      <mapcoords y="-1.37741" x_floorplan_percent="48.4375" x="0.85144" y_floorplan_percent="64.2537" mapid="FloorPlan01"/>
+    <userdata nodeid="node2" info="" customnodeid="" title="" latitude="" longitude="" source="" datetime="" copyright="" author="" comment="" tags="" description="" heading="-78.9415">
+      <mapcoords y="-1.34857" x_floorplan_percent="46.875" x="0.823975" y_floorplan_percent="62.9487" mapid="FloorPlan01"/>
     </userdata>
     <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
       <label wordwrap="1" borderradius="1" background="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" bordercolor="0x000000" borderalpha="1" border="1" backgroundalpha="1" width="180" textcolor="0x000000"/>
@@ -47,14 +47,14 @@
       <level preload="1" width="357" height="357" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="48.591" fovmode="2">
+    <view pannorth="52.5631" fovmode="2">
       <start tilt="0" pan="0" projection="4" fov="100"/>
       <flyin tilt="-90" pan="0" projection="9" fov="170"/>
       <min fovpixel="2" tilt="-36.9192" pan="-180"/>
       <max fovfisheye="360" tilt="36.9192" pan="180" fovstereographic="330" fov="140"/>
     </view>
-    <userdata nodeid="node4" info="" customnodeid="" title="" latitude="" longitude="" source="" datetime="" copyright="" author="" comment="" tags="" description="" heading="48.591">
-      <mapcoords y="-1.03683" x_floorplan_percent="37.5" x="0.65918" y_floorplan_percent="48.3664" mapid="FloorPlan01"/>
+    <userdata nodeid="node4" info="" customnodeid="" title="" latitude="" longitude="" source="" datetime="" copyright="" author="" comment="" tags="" description="" heading="52.5631">
+      <mapcoords y="-1.11786" x_floorplan_percent="38.75" x="0.681152" y_floorplan_percent="52.1795" mapid="FloorPlan01"/>
     </userdata>
     <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
       <label wordwrap="1" borderradius="1" background="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" bordercolor="0x000000" borderalpha="1" border="1" backgroundalpha="1" width="180" textcolor="0x000000"/>
@@ -75,14 +75,14 @@
       <level preload="1" width="334" height="334" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="70.178" fovmode="2">
+    <view pannorth="68.7086" fovmode="2">
       <start tilt="0" pan="0" projection="4" fov="100"/>
       <flyin tilt="-90" pan="0" projection="9" fov="170"/>
       <min fovpixel="2" tilt="-38.9384" pan="-180"/>
       <max fovfisheye="360" tilt="38.9384" pan="180" fovstereographic="330" fov="140"/>
     </view>
-    <userdata nodeid="node5" info="" customnodeid="" title="" latitude="" longitude="" source="" datetime="" copyright="" author="" comment="" tags="1" description="" heading="70.178">
-      <mapcoords y="-1.44333" x_floorplan_percent="79.0625" x="1.38977" y_floorplan_percent="67.3286" mapid="FloorPlan01"/>
+    <userdata nodeid="node5" info="" customnodeid="" title="" latitude="" longitude="" source="" datetime="" copyright="" author="" comment="" tags="1" description="" heading="68.7086">
+      <mapcoords y="-1.46942" x_floorplan_percent="70.625" x="1.24146" y_floorplan_percent="68.5897" mapid="FloorPlan01"/>
     </userdata>
     <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
       <label wordwrap="1" borderradius="1" background="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" bordercolor="0x000000" borderalpha="1" border="1" backgroundalpha="1" width="180" textcolor="0x000000"/>
@@ -122,14 +122,14 @@
       <level preload="1" width="370" height="370" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="220.263" fovmode="2">
+    <view pannorth="212.179" fovmode="2">
       <start tilt="0" pan="0" projection="4" fov="100"/>
       <flyin tilt="-90" pan="0" projection="9" fov="170"/>
       <min fovpixel="2" tilt="-35.9599" pan="-180"/>
       <max fovfisheye="360" tilt="35.9599" pan="180" fovstereographic="330" fov="140"/>
     </view>
-    <userdata nodeid="node6" info="" customnodeid="" title="" latitude="" longitude="" source="" datetime="" copyright="" author="" comment="" tags="2" description="" heading="220.263">
-      <mapcoords y="-1.44333" x_floorplan_percent="40" x="0.703125" y_floorplan_percent="67.3286" mapid="FloorPlan01"/>
+    <userdata nodeid="node6" info="" customnodeid="" title="" latitude="" longitude="" source="" datetime="" copyright="" author="" comment="" tags="2" description="" heading="212.179">
+      <mapcoords y="-1.50238" x_floorplan_percent="35" x="0.615234" y_floorplan_percent="70.1282" mapid="FloorPlan01"/>
     </userdata>
     <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
       <label wordwrap="1" borderradius="1" background="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" bordercolor="0x000000" borderalpha="1" border="1" backgroundalpha="1" width="180" textcolor="0x000000"/>
@@ -153,6 +153,6 @@
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map crispedges="0" title="" zoomlevels="1" tileformat="jpg" id="FloorPlan01" height="1561" transparent="0" bgcolor="rgba(255, 255, 255, 1)" index="0" type="file" width="1280" floorplannorth="0"/>
+  <map crispedges="0" title="" zoomlevels="1" tileformat="jpg" id="FloorPlan01" height="780" transparent="0" bgcolor="rgba(255, 255, 255, 1)" index="0" type="file" width="640" floorplannorth="0"/>
   <map crispedges="0" title="" zoomlevels="1" tileformat="jpg" id="FloorPlan02" height="1561" transparent="0" bgcolor="rgba(255, 255, 255, 1)" index="1" type="file" width="1280" floorplannorth="0"/>
 </tour>
