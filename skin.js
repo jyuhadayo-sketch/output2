@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.11/21010
 // Filename: myskin.ggsk
-// Generated 2025-12-06T16:58:33
+// Generated 2025-12-06T17:02:02
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -117,6 +117,44 @@ function pano2vrSkin(player,base) {
 	this.addSkin=function() {
 		var hs='';
 		this.ggCurrentTime=new Date().getTime();
+		el=me._image_2=document.createElement('div');
+		els=me._image_2__img=document.createElement('img');
+		els.className='ggskin ggskin_image_2';
+		hs=basePath + 'images/image_2.jpg';
+		els.setAttribute('src',hs);
+		els.ggNormalSrc=hs;
+		hs ='';
+		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
+		els.setAttribute('style', hs);
+		els.className='ggskin ggskin_image';
+		els['ondragstart']=function() { return false; };
+		player.checkLoaded.push(els);
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="Image 2";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_image ";
+		el.ggType='image';
+		hs ='';
+		hs+='height : 245px;';
+		hs+='position : absolute;';
+		hs+='right : 12px;';
+		hs+='top : 13px;';
+		hs+='visibility : inherit;';
+		hs+='width : 198px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._image_2.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._image_2.ggUpdatePosition=function (useTransition) {
+		}
+		me.divSkin.appendChild(me._image_2);
 		el=me._map_1=document.createElement('div');
 		el.ggFilter = '';
 		el.ggFilteredIds = [];
@@ -133,7 +171,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 250px;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='right : 10px;';
+		hs+='right : 9px;';
 		hs+='top : 8px;';
 		hs+='visibility : inherit;';
 		hs+='width : 200px;';
@@ -158,51 +196,6 @@ function pano2vrSkin(player,base) {
 		me._map_1.ggUpdatePosition=function (useTransition) {
 			me._map_1.ggUpdateConditionResize();
 		}
-		el=me._image_2=document.createElement('div');
-		els=me._image_2__img=document.createElement('img');
-		els.className='ggskin ggskin_image_2';
-		hs=basePath + 'images/image_2.jpg';
-		els.setAttribute('src',hs);
-		els.ggNormalSrc=hs;
-		hs ='';
-		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
-		els.setAttribute('style', hs);
-		els.className='ggskin ggskin_image';
-		els['ondragstart']=function() { return false; };
-		player.checkLoaded.push(els);
-		el.appendChild(els);
-		el.ggSubElement = els;
-		el.ggId="Image 2";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_image ";
-		el.ggType='image';
-		hs ='';
-		hs+='height : 245px;';
-		hs+='left : 2px;';
-		hs+='position : absolute;';
-		hs+='top : 3px;';
-		hs+='visibility : inherit;';
-		hs+='width : 198px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style.transformOrigin='50% 50%';
-		me._image_2.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._image_2.ggUpdatePosition=function (useTransition) {
-		}
-		me._map_1.appendChild(me._image_2);
-		me.divSkin.appendChild(me._map_1);
 		el=me._a2=document.createElement('div');
 		els=me._a2__img=document.createElement('img');
 		els.className='ggskin ggskin_a2';
@@ -244,18 +237,24 @@ function pano2vrSkin(player,base) {
 		el.ggType='button';
 		hs ='';
 		hs+='height : 29px;';
-		hs+='left : 513px;';
 		hs+='position : absolute;';
-		hs+='top : 135px;';
+		hs+='right : 88px;';
+		hs+='top : 125px;';
 		hs+='visibility : inherit;';
 		hs+='width : 28px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		me._a2.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
 			return false;
 		}
 		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
 			return player.getCurrentNode();
 		}
 		me._a2.onclick=function (e) {
@@ -263,7 +262,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._a2.ggUpdatePosition=function (useTransition) {
 		}
-		me.divSkin.appendChild(me._a2);
+		me._map_1.appendChild(me._a2);
 		el=me._a3=document.createElement('div');
 		els=me._a3__img=document.createElement('img');
 		els.className='ggskin ggskin_a3';
@@ -305,18 +304,24 @@ function pano2vrSkin(player,base) {
 		el.ggType='image';
 		hs ='';
 		hs+='height : 29px;';
-		hs+='left : 491px;';
 		hs+='position : absolute;';
-		hs+='top : 113px;';
+		hs+='right : 109px;';
+		hs+='top : 103px;';
 		hs+='visibility : inherit;';
 		hs+='width : 28px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		me._a3.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
 			return false;
 		}
 		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
 			return player.getCurrentNode();
 		}
 		me._a3.onclick=function (e) {
@@ -324,7 +329,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._a3.ggUpdatePosition=function (useTransition) {
 		}
-		me.divSkin.appendChild(me._a3);
+		me._map_1.appendChild(me._a3);
 		el=me._a4=document.createElement('div');
 		els=me._a4__img=document.createElement('img');
 		els.className='ggskin ggskin_a4';
@@ -366,18 +371,24 @@ function pano2vrSkin(player,base) {
 		el.ggType='image';
 		hs ='';
 		hs+='height : 29px;';
-		hs+='left : 555px;';
 		hs+='position : absolute;';
-		hs+='top : 151px;';
+		hs+='right : 45px;';
+		hs+='top : 141px;';
 		hs+='visibility : inherit;';
 		hs+='width : 28px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		me._a4.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
 			return false;
 		}
 		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
 			return player.getCurrentNode();
 		}
 		me._a4.onclick=function (e) {
@@ -385,7 +396,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._a4.ggUpdatePosition=function (useTransition) {
 		}
-		me.divSkin.appendChild(me._a4);
+		me._map_1.appendChild(me._a4);
 		el=me._a5=document.createElement('div');
 		els=me._a5__img=document.createElement('img');
 		els.className='ggskin ggskin_a5';
@@ -427,18 +438,24 @@ function pano2vrSkin(player,base) {
 		el.ggType='image';
 		hs ='';
 		hs+='height : 29px;';
-		hs+='left : 484px;';
 		hs+='position : absolute;';
-		hs+='top : 155px;';
+		hs+='right : 116px;';
+		hs+='top : 145px;';
 		hs+='visibility : inherit;';
 		hs+='width : 28px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		me._a5.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
 			return false;
 		}
 		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
 			return player.getCurrentNode();
 		}
 		me._a5.onclick=function (e) {
@@ -446,7 +463,8 @@ function pano2vrSkin(player,base) {
 		}
 		me._a5.ggUpdatePosition=function (useTransition) {
 		}
-		me.divSkin.appendChild(me._a5);
+		me._map_1.appendChild(me._a5);
+		me.divSkin.appendChild(me._map_1);
 		el=me._image_1=document.createElement('div');
 		els=me._image_1__img=document.createElement('img');
 		els.className='ggskin ggskin_image_1';
