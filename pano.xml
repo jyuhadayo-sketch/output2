@@ -54,7 +54,7 @@
       <max pan="180" tilt="36.9192" fovfisheye="360" fovstereographic="330" fov="140"/>
     </view>
     <userdata longitude="" heading="51.1072" info="" title="" comment="" datetime="" source="" description="" copyright="" customnodeid="" latitude="" nodeid="node4" author="" tags="">
-      <mapcoords mapid="FloorPlan01" x="0.631714" y="-1.11511" x_floorplan_percent="35.9375" y_floorplan_percent="52.0179"/>
+      <mapcoords mapid="FloorPlan01" x="0.6427" y="-1.0437" x_floorplan_percent="36.5625" y_floorplan_percent="48.6867"/>
     </userdata>
     <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
       <label textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" width="180" background="1" border="1"/>
