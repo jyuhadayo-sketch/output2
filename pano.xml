@@ -154,4 +154,5 @@
     </animationsequences>
   </masternode>
   <map crispedges="0" title="" zoomlevels="1" tileformat="jpg" id="FloorPlan01" height="1561" transparent="0" bgcolor="rgba(255, 255, 255, 1)" index="0" type="file" width="1280" floorplannorth="0"/>
+  <map crispedges="0" title="" zoomlevels="1" tileformat="jpg" id="FloorPlan02" height="1561" transparent="0" bgcolor="rgba(255, 255, 255, 1)" index="1" type="file" width="1280" floorplannorth="0"/>
 </tour>
