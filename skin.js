@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.11/21010
 // Filename: mapskin.ggsk
-// Generated 2025-12-06T15:55:56
+// Generated 2025-12-06T16:26:02
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -303,7 +303,7 @@ function pano2vrSkin(player,base) {
 			var imageFilename = basePath + 'images/maptiles/' + me._map_1.ggMapId + '_' + level + '.' + mapDetails['tileformat'];
 			me._map_1__img.setAttribute('src', imageFilename);
 			me._map_1__img.setAttribute('loading', 'lazy');
-		me._map_1__mapdiv.setAttribute('style','position: absolute; left: 0px; top: 0px;width:' + me._map_1.ggFloorplanWidth + 'px;height:' + me._map_1.ggFloorplanHeight + 'px;overflow:hidden;;');
+		me._map_1__mapdiv.setAttribute('style','position: absolute; right: 0px; top: 0px;width:' + me._map_1.ggFloorplanWidth + 'px;height:' + me._map_1.ggFloorplanHeight + 'px;overflow:hidden;;');
 		var image_rendering_prop = (player.getBrowser() == 2 || player.getBrowser() == 3) ? 'crisp-edges' : 'pixelated';
 		me._map_1__img.setAttribute('style','width:' + me._map_1.ggFloorplanWidth + 'px;height:' + me._map_1.ggFloorplanHeight + 'px;-webkit-user-drag:none;pointer-events:none;image-rendering:' + (mapDetails['crispedges'] ? image_rendering_prop : 'auto') + ';');
 		}
