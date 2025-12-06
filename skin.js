@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.11/21010
 // Filename: myskin.ggsk
-// Generated 2025-12-06T16:32:21
+// Generated 2025-12-06T16:38:26
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -160,20 +160,66 @@ function pano2vrSkin(player,base) {
 		me._map_1.ggUpdatePosition=function (useTransition) {
 			me._map_1.ggUpdateConditionResize();
 		}
+		el=me._image_2=document.createElement('div');
+		els=me._image_2__img=document.createElement('img');
+		els.className='ggskin ggskin_image_2';
+		hs=basePath + 'images/image_2.jpg';
+		els.setAttribute('src',hs);
+		els.ggNormalSrc=hs;
+		hs ='';
+		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
+		els.setAttribute('style', hs);
+		els.className='ggskin ggskin_image';
+		els['ondragstart']=function() { return false; };
+		player.checkLoaded.push(els);
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="Image 2";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_image ";
+		el.ggType='image';
+		hs ='';
+		hs+='height : 245px;';
+		hs+='left : 2px;';
+		hs+='position : absolute;';
+		hs+='top : 3px;';
+		hs+='visibility : inherit;';
+		hs+='width : 198px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._image_2.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._image_2.ggUpdatePosition=function (useTransition) {
+		}
+		me._map_1.appendChild(me._image_2);
 		el=me._marker_1=document.createElement('div');
-		el.ggMarkerNodeId='';
+		el.ggMarkerNodeId='{node2}';
 		el.ggMarkerInstances = [];
 		nodeMarker.push(el);
 		el.ggId="Marker 1";
+		el.ggDx=-9;
+		el.ggDy=35;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_mark ";
 		el.ggType='mark';
 		hs ='';
 		hs+='height : 0px;';
-		hs+='left : 53px;';
+		hs+='left : calc(50% - ((0px + 0px) / 2) - 9px);';
 		hs+='position : absolute;';
-		hs+='top : 178px;';
+		hs+='top : calc(50% - ((0px + 0px) / 2) + 35px);';
 		hs+='visibility : inherit;';
 		hs+='width : 0px;';
 		hs+='pointer-events:auto;';
@@ -189,9 +235,123 @@ function pano2vrSkin(player,base) {
 			}
 			return '';
 		}
+		me._marker_1.onclick=function (e) {
+			player.openNext('{node2}');
+		}
 		me._marker_1.ggUpdatePosition=function (useTransition) {
 		}
 		me._map_1.appendChild(me._marker_1);
+		el=me._marker_2=document.createElement('div');
+		el.ggMarkerNodeId='{node4}';
+		el.ggMarkerInstances = [];
+		nodeMarker.push(el);
+		el.ggId="Marker 2";
+		el.ggDx=-33;
+		el.ggDy=-3;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_mark ";
+		el.ggType='mark';
+		hs ='';
+		hs+='height : 0px;';
+		hs+='left : calc(50% - ((0px + 0px) / 2) - 33px);';
+		hs+='position : absolute;';
+		hs+='top : calc(50% - ((0px + 0px) / 2) - 3px);';
+		hs+='visibility : inherit;';
+		hs+='width : 0px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._marker_2.ggIsActive=function() {
+			return this.ggIsMarkerActive==true;
+		}
+		el.ggElementNodeId=function() {
+			var hs=String(this.ggMarkerNodeId);
+			if (hs.charAt(0)=='{') { // }
+				return hs.substr(1, hs.length - 2);
+			}
+			return '';
+		}
+		me._marker_2.onclick=function (e) {
+			player.openNext('{node4}');
+		}
+		me._marker_2.ggUpdatePosition=function (useTransition) {
+		}
+		me._map_1.appendChild(me._marker_2);
+		el=me._marker_3=document.createElement('div');
+		el.ggMarkerNodeId='{node5}';
+		el.ggMarkerInstances = [];
+		nodeMarker.push(el);
+		el.ggId="Marker 3";
+		el.ggDx=37;
+		el.ggDy=36;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_mark ";
+		el.ggType='mark';
+		hs ='';
+		hs+='height : 0px;';
+		hs+='left : calc(50% - ((0px + 0px) / 2) + 37px);';
+		hs+='position : absolute;';
+		hs+='top : calc(50% - ((0px + 0px) / 2) + 36px);';
+		hs+='visibility : inherit;';
+		hs+='width : 0px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._marker_3.ggIsActive=function() {
+			return this.ggIsMarkerActive==true;
+		}
+		el.ggElementNodeId=function() {
+			var hs=String(this.ggMarkerNodeId);
+			if (hs.charAt(0)=='{') { // }
+				return hs.substr(1, hs.length - 2);
+			}
+			return '';
+		}
+		me._marker_3.onclick=function (e) {
+			player.openNext('{node5}');
+		}
+		me._marker_3.ggUpdatePosition=function (useTransition) {
+		}
+		me._map_1.appendChild(me._marker_3);
+		el=me._marker_4=document.createElement('div');
+		el.ggMarkerNodeId='{node6}';
+		el.ggMarkerInstances = [];
+		nodeMarker.push(el);
+		el.ggId="Marker 4";
+		el.ggDx=-37;
+		el.ggDy=34;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_mark ";
+		el.ggType='mark';
+		hs ='';
+		hs+='height : 0px;';
+		hs+='left : calc(50% - ((0px + 0px) / 2) - 37px);';
+		hs+='position : absolute;';
+		hs+='top : calc(50% - ((0px + 0px) / 2) + 34px);';
+		hs+='visibility : inherit;';
+		hs+='width : 0px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._marker_4.ggIsActive=function() {
+			return this.ggIsMarkerActive==true;
+		}
+		el.ggElementNodeId=function() {
+			var hs=String(this.ggMarkerNodeId);
+			if (hs.charAt(0)=='{') { // }
+				return hs.substr(1, hs.length - 2);
+			}
+			return '';
+		}
+		me._marker_4.onclick=function (e) {
+			player.openNext('{node6}');
+		}
+		me._marker_4.ggUpdatePosition=function (useTransition) {
+		}
+		me._map_1.appendChild(me._marker_4);
 		me.divSkin.appendChild(me._map_1);
 		el=me._image_1=document.createElement('div');
 		els=me._image_1__img=document.createElement('img');
@@ -456,6 +616,27 @@ function pano2vrSkin(player,base) {
 		me._marker_1.ggMarkerInstances.push(null);
 		for (var i = 0; i < me._marker_1.childNodes.length; i++) {
 			me._marker_1.ggMarkerInstances.push(me._marker_1.childNodes[i]);
+		}
+		me._marker_2.ggMarkerNormal=null;
+		me._marker_2.ggMarkerInstances.push(null);
+		me._marker_2.ggMarkerActive=null;
+		me._marker_2.ggMarkerInstances.push(null);
+		for (var i = 0; i < me._marker_2.childNodes.length; i++) {
+			me._marker_2.ggMarkerInstances.push(me._marker_2.childNodes[i]);
+		}
+		me._marker_3.ggMarkerNormal=null;
+		me._marker_3.ggMarkerInstances.push(null);
+		me._marker_3.ggMarkerActive=null;
+		me._marker_3.ggMarkerInstances.push(null);
+		for (var i = 0; i < me._marker_3.childNodes.length; i++) {
+			me._marker_3.ggMarkerInstances.push(me._marker_3.childNodes[i]);
+		}
+		me._marker_4.ggMarkerNormal=null;
+		me._marker_4.ggMarkerInstances.push(null);
+		me._marker_4.ggMarkerActive=null;
+		me._marker_4.ggMarkerInstances.push(null);
+		for (var i = 0; i < me._marker_4.childNodes.length; i++) {
+			me._marker_4.ggMarkerInstances.push(me._marker_4.childNodes[i]);
 		}
 		player.addListener('changenode', function(event) {
 			var mapDetails = player.getMapDetails(me._map_1.ggMapId);
