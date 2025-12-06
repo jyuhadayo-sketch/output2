@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.11/21010
 // Filename: mapskin.ggsk
-// Generated 2025-12-06T15:31:24
+// Generated 2025-12-06T15:42:45
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -383,6 +383,27 @@ function pano2vrSkin(player,base) {
 					}
 				}
 				if (me._map_1.ggFilteredIds.length > 0) ids = me._map_1.ggFilteredIds;
+			}
+			var nodeSortObjs = [];
+			for (var i=0; i<ids.length;i++) {
+				var gps;
+				if (player.getMapType(me._map_1.ggMapId) == 'web') {
+					gps=player.getNodeLatLng(ids[i]);
+				} else {
+					gps=player.getNodeMapCoords(ids[i], me._map_1.ggMapId);
+				}
+				if ((gps.length>=2) && ((gps[0]!=0) || (gps[1]!=0))) {
+					var nodeSortObj = {};
+					nodeSortObj['id'] = ids[i];
+					nodeSortObj['lat'] = gps[0];
+					nodeSortObj['lng'] = gps[1];
+					nodeSortObjs.push(nodeSortObj);
+				}
+			}
+			nodeSortObjs.sort(function(a, b){if (a['lat'] == b['lat']) return a['lng'] - b['lng']; else return b['lat'] - a['lat']});
+			ids = [];
+			for (var i=0; i<nodeSortObjs.length;i++) {
+				ids.push(nodeSortObjs[i]['id']);
 			}
 			for(var i=0; i < ids.length; i++) {
 				var id = ids[i];
