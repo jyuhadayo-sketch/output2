@@ -14,7 +14,7 @@
       <max pan="180" tilt="35.7871" fovfisheye="360" fovstereographic="330" fov="140"/>
     </view>
     <userdata longitude="" heading="-87.0724" info="" title="" comment="" datetime="" source="" description="" copyright="" customnodeid="" latitude="" nodeid="node2" author="" tags="">
-      <mapcoords mapid="FloorPlan01" x="0.845947" y="-1.26343" x_floorplan_percent="48.125" y_floorplan_percent="58.9366"/>
+      <mapcoords mapid="FloorPlan01" x="0.85144" y="-1.30737" x_floorplan_percent="48.4375" y_floorplan_percent="60.9865"/>
     </userdata>
     <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
       <label textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" width="180" background="1" border="1"/>
@@ -54,7 +54,7 @@
       <max pan="180" tilt="36.9192" fovfisheye="360" fovstereographic="330" fov="140"/>
     </view>
     <userdata longitude="" heading="51.1072" info="" title="" comment="" datetime="" source="" description="" copyright="" customnodeid="" latitude="" nodeid="node4" author="" tags="">
-      <mapcoords mapid="FloorPlan01" x="0.6427" y="-1.0437" x_floorplan_percent="36.5625" y_floorplan_percent="48.6867"/>
+      <mapcoords mapid="FloorPlan01" x="0.639954" y="-1.09314" x_floorplan_percent="36.4063" y_floorplan_percent="50.993"/>
     </userdata>
     <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
       <label textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" width="180" background="1" border="1"/>
@@ -82,7 +82,7 @@
       <max pan="180" tilt="38.9384" fovfisheye="360" fovstereographic="330" fov="140"/>
     </view>
     <userdata longitude="" heading="68.7086" info="" title="" comment="" datetime="" source="" description="" copyright="" customnodeid="" latitude="" nodeid="node5" author="" tags="1">
-      <mapcoords mapid="FloorPlan01" x="1.23596" y="-1.45569" x_floorplan_percent="70.3125" y_floorplan_percent="67.9052"/>
+      <mapcoords mapid="FloorPlan01" x="1.23047" y="-1.4447" x_floorplan_percent="70" y_floorplan_percent="67.3927"/>
     </userdata>
     <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
       <label textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" width="180" background="1" border="1"/>
@@ -129,7 +129,7 @@
       <max pan="180" tilt="35.9599" fovfisheye="360" fovstereographic="330" fov="140"/>
     </view>
     <userdata longitude="" heading="212.179" info="" title="" comment="" datetime="" source="" description="" copyright="" customnodeid="" latitude="" nodeid="node6" author="" tags="2">
-      <mapcoords mapid="FloorPlan01" x="0.615234" y="-1.47766" x_floorplan_percent="35" y_floorplan_percent="68.9302"/>
+      <mapcoords mapid="FloorPlan01" x="0.598755" y="-1.47766" x_floorplan_percent="34.0625" y_floorplan_percent="68.9302"/>
     </userdata>
     <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
       <label textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" backgroundalpha="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" width="180" background="1" border="1"/>
